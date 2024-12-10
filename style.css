@@ -2,7 +2,6 @@ body{
   font-family: "Poppins", sans-serif;
   /* font-weight: 100; */
   font-style: normal;
-
   /* border: solid 1px beige; */
   /* border-radius: 2px; */
 }
@@ -49,7 +48,7 @@ body{
 .profile p{
     border: solid blueviolet 1px;
     background-color: blueviolet;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 30px;
     color: aliceblue;
     cursor: pointer;
@@ -71,7 +70,7 @@ body{
 
 .sale-image__offer{
     width: 210px;
-    height: 150px;
+    height: 100px;
     background-color: white;
     position: absolute;
     top: 10%;
@@ -81,6 +80,10 @@ body{
     animation-duration: 2s;
     /* opacity: 0; */
     animation-fill-mode: forwards;
+}
+
+h2{
+    line-height: 0.8;
 }
 
 @keyframes zoom{
@@ -96,13 +99,13 @@ body{
 }
 
 .recommended{
-    padding: 10px;
+    margin-top: 10px; 
 }
 
 .recommended__container{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
@@ -110,6 +113,20 @@ body{
     flex-grow: 1;
     flex-basis: 20%;
     margin: 5px;
+    line-height: 0.1;
+    margin-bottom: 0.8;
+}
+
+h1{
+    line-height: 0.1;
+}
+
+h3{
+    line-height: 0.9;
+}
+
+p{
+    line-height: 0;
 }
 
 .course-card img{
@@ -118,22 +135,22 @@ body{
 }
 
 .topics{
-    padding: 10px;
-
+    line-height: 0.1;
 }
 
 .topics__container{
     display: flex;
     gap: 10px;
-    margin-top: 10px;
     flex-wrap: wrap;
 }
 
 .topics__container p{
     border: solid grey 2px;
-    padding: 10px;
+    padding: 20px;
+    margin: 2px;
     flex-grow: 1;
     flex-basis: 25%;
+    line-height: 0.1%;
 }
 
 .popular{
